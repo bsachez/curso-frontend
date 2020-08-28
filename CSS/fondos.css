@@ -1,0 +1,13 @@
+body {
+  /* background: #f72020; */
+
+  /* background: url('img/bg.jpg'); */
+
+  /* background: url('img/bg-small.jpg'); */ /*<- la umagen es mas pequeña por eso se repite */
+
+  /* background-repeat: no-repeat; */ /* <- esto es para que no se repita */
+
+  /* background-repeat: repeat-x; */ /* <- asi se va a repetir horizontalmente*/
+
+  /* background-repeat: repeat-y; */ /* <- asi de va a repetir verticalmente*/
+}
