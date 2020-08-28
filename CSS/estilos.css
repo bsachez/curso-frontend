@@ -1,0 +1,14 @@
+body{
+  color: blue;
+}
+
+
+/*Atributos avanzado se CSS*/
+
+div p{} /*con este artibuto podemos seleccionar los elementos que le hemos indicado sin importart que otra etiqueta tenga en medio*/
+
+div > p{} /*Con esta etiqueta podemos seleccionar los elementos de una manera mas espesifica ya que solo va a seleccionar los elementos que que esten directamente dentro de un div ya que los que tengan un div y luego otra eqtiqueta y al ultimo el p esos no sera seleccionados*/
+
+input[type]{} /*Con este selector podemos darle estilos a todos los imput que tengan el atributo type, si no lo tienen no setan seleccionados*/
+
+imput[type="text"]{} /*Con este selector podemos definir de una manera mas espesifica que tipo de umputs queremos seleccionar */
