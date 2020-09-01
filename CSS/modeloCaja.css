@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.caja {
+    background: #0353a4;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+}
+
+/*
+
+atributos para los selectores de margin
+
+margin: valor1; <- va a tener ese valor por todos sus lados
+
+margin: valor1, valor2; <- el primer valor se lo dara, arriba y abajo y el degunda a la izquierda y a la derecha
+
+margin: valor1, valor2, valor3, valor4;
+
+valor1 = arriba
+valor2 = derecha
+valor3 = abajo
+valor4 = izquierda
+
+*/
+
+/*
+
+el margen es uns separacion externa
+el padding es una separacion interna que empueza del contenido hacia la parte de afuera pero conteniendoce en el contenedor
+
+el border es el borde lde la vaja
+
+*/
