@@ -1,0 +1,64 @@
+body {
+    background: #F2F2F2;
+    font-family: arial, sans-serif;
+}
+
+div {
+    margin: 20px 0;
+}
+
+.btn {
+    background: #6A8D73;
+    color: #FFFFFF;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 15px 20px;
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.btn:hover {
+    opacity: .8;
+}
+
+/* Tamaños */
+
+.small {
+    font-size: 14px;
+    padding: 10px 15px;
+}
+
+.medium {
+    font-size: 14px;
+    padding: 15px 20px;
+}
+
+.big {
+    font-size: 14px;
+    padding: 20px 25px;
+}
+
+.extra-big {
+    font-size: 14px;
+    padding: 25px 30px;
+}
+
+/* Colores */
+
+.negro {
+    background: #242325;
+}
+
+.azul {
+    background: #BAA5FF;
+}
+
+.rojo {
+    background: #EF6F6C;
+}
+
+/* Efectos */
+
+.border-radiud {
+    border-radius: 100px;
+}
