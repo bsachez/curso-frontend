@@ -1,0 +1,45 @@
+/* ESTA SINTAXIS ES MAS NUEVA PERO UTILIZA {} Y ; */
+
+body {
+    background: #F2F2F2;
+}
+
+
+/*
+
+CON ESTA SINTAXIS DE SASS EN VEZ DE ESCRIBIR DE ESTA MANERA
+
+.articulo {
+  estilos
+}
+
+.articulo .titulo {
+    estilos
+}
+
+.articulo .titulo .autor {
+    estilos
+}
+
+
+PODEMOS HACER LO MISMO PERO DE ESTA MANERA
+*/
+
+
+.articulo {
+    background: #FFFFFF;
+    
+    .titulo {
+        color: #000000;
+    }
+    
+    .autor {
+        color: #000000;
+    }
+    
+    p {
+        a {
+            text-decoration: none;
+        }
+    }
+}
