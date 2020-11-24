@@ -1,0 +1,40 @@
+/* ESTA SINTAXIS ES MAS NUEVA PERO UTILIZA {} Y ; */
+body {
+  background: #F2F2F2;
+}
+
+/*
+
+CON ESTA SINTAXIS DE SASS EN VEZ DE ESCRIBIR DE ESTA MANERA
+
+.articulo {
+  estilos
+}
+
+.articulo .titulo {
+    estilos
+}
+
+.articulo .titulo .autor {
+    estilos
+}
+
+
+PODEMOS HACER LO MISMO PERO DE ESTA MANERA
+*/
+.articulo {
+  background: #FFFFFF;
+}
+
+.articulo .titulo {
+  color: #000000;
+}
+
+.articulo .autor {
+  color: #000000;
+}
+
+.articulo p a {
+  text-decoration: none;
+}
+/*# sourceMappingURL=sintax.css.map */

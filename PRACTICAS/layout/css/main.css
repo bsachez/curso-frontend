@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -22,19 +21,23 @@ body {
 header {
   background: #FFFFFF;
 }
+
 header nav ul {
   list-style: none;
   overflow: hidden;
 }
+
 header nav ul li {
   float: left;
 }
+
 header nav ul li a {
   text-decoration: none;
   display: inline-block;
   color: #000000;
   padding: 15px 20px;
 }
+
 header nav ul li a:hover {
   background: #000000;
   color: #FFFFFF;
@@ -45,20 +48,25 @@ header nav ul li a:hover {
   float: left;
   background: #FFFFFF;
 }
+
 .main .imagen {
   width: 100%;
 }
+
 .main .imagen img {
   width: 100%;
   vertical-align: top;
 }
+
 .main .posts {
   padding: 40px;
 }
+
 .main .posts article h2 {
   margin-bottom: 20px;
   color: #424242;
 }
+
 .main .posts article p {
   margin-bottom: 15px;
   line-height: 27px;
@@ -71,28 +79,35 @@ aside {
   padding: 20px;
   color: #fff;
 }
+
 aside .widget {
   margin-bottom: 20px;
 }
+
 aside .widget .titulo {
   color: #ff8000;
   border-bottom: 1px solid #ff8000;
   margin-bottom: 10px;
 }
+
 aside .widget ul {
   list-style: none;
 }
+
 aside .widget ul li {
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
   padding: 10px 0;
 }
+
 aside .widget ul li a {
   color: #fff;
   text-decoration: none;
 }
+
 aside .widget ul li a:hover {
   color: #8f8f8f;
 }
+
 aside .widget p {
   line-height: 27px;
 }
@@ -110,14 +125,11 @@ footer {
   .main {
     width: 100%;
   }
-
   aside {
     width: 100%;
   }
-
   footer {
     width: 100%;
   }
 }
-
 /*# sourceMappingURL=main.css.map */

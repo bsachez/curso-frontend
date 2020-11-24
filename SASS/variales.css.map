@@ -1,1 +1,9 @@
-{"version":3,"sourceRoot":"","sources":["variales.sass"],"names":[],"mappings":"AAAA;AAIA;EACI,YAHO;EAIP","file":"variales.css"}
+{
+    "version": 3,
+    "mappings": "AAAA,gEAAgE;AAIhE,AAAA,IAAI,CAAC;EACD,UAAU,EAHH,OAAO;EAId,KAAK,EAAE,OAAO;CAAG",
+    "sources": [
+        "variales.sass"
+    ],
+    "names": [],
+    "file": "variales.css"
+}

@@ -8,29 +8,35 @@ body {
   width: 500px;
   padding: 20px;
 }
+
 .articulo .titulo {
   color: #F9A03F;
 }
+
 .articulo .autor {
   color: #4D5061;
 }
+
 .articulo p a {
   color: #F9A03F;
   text-decoration: none;
 }
+
 .articulo p a:hover {
   color: #000000;
 }
+
 .articulo div {
   text-align: center;
 }
+
 .articulo div a {
   text-decoration: none;
   font-size: 25px;
   color: #F9A03F;
 }
+
 .articulo div a:hover {
   text-decoration: underline;
 }
-
 /*# sourceMappingURL=anidacion.css.map */

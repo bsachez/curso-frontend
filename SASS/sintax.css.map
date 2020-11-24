@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,oDAAoD;AAEpD,AAAA,IAAI,CAAC;EACD,UAAU,EAAE,OAAO;CACtB;;AAGD;;;;;;;;;;;;;;;;;;EAkBE;AAGF,AAAA,SAAS,CAAC;EACN,UAAU,EAAE,OAAO;CAetB;;AAhBD,AAGI,SAHK,CAGL,OAAO,CAAC;EACJ,KAAK,EAAE,OAAO;CACjB;;AALL,AAOI,SAPK,CAOL,MAAM,CAAC;EACH,KAAK,EAAE,OAAO;CACjB;;AATL,AAYQ,SAZC,CAWL,CAAC,CACG,CAAC,CAAC;EACE,eAAe,EAAE,IAAI;CACxB",
+    "sources": [
+        "sintax.scss"
+    ],
+    "names": [],
+    "file": "sintax.css"
+}

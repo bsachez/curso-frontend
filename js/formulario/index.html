@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="container">
+        <form action="" class="formulario" id="formulario" name="formulario">
+            <div class="inputs-container">
+                <input type="text" name="nombre" placeholder="Nombre">
+                <input type="text" name="correo" placeholder="Correo">
+
+                <div class="sexo">
+                    <input type="radio" name="sexo" id="hombre" value="hombre">
+                    <label class="label-radio hombre" for="hombre">Hombre</label>
+
+                    <input type="radio" name="sexo" id="mujer" value="mujer">
+                    <label class="label-radio mujer" for="mujer">Mujer</label>
+                </div>
+
+                <div class="terminos">
+                    <input type="checkbox" name="terminos" id="terminos">
+                    <label for="terminos">Terminos y Condiciones</label>
+                </div>
+
+                <ul class="error" id="error">
+                </ul>
+            </div>
+
+            <input type="submit" class="btn" value="Registrarse">
+        </form>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>

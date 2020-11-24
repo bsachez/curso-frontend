@@ -4,14 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Eventos</title>
+    <style>
+        .caja {
+            width: 200px;
+            height: 200px;
+            cursor: pointer;
+            background: #226FC1;
+            margin: 10px;
+            display: inline-block;
+            text-align: center;
+            font-size: 30px;
+            color: #FFFFFF;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
 </head>
 <body>
 
     <!-- <button onclick="saludo()">saludo</button> -->
     <!-- <button id="btn-saludar">saludo</button> -->
+    <button id="btn-caja">Crear caja</button>
+    <section id="contenedor"></section>
 
     <script>
         /* Exixten 3 modelos de eventos diferentes:
+        
 			- Modelo basico de eventos.
 				Caracteristicas limitadas.
 				Pero Funciona en todos los navegadores.
@@ -26,27 +43,50 @@
 				Modelo creado por Microsoft exclusivamente para IE.
         */
         
-        function saludo() {
-            alert('hola mundo');
+        function crearCaja() {
+            var contenedor = document.getElementById('contenedor');
+            var caja = document.createElement('div');
+            caja.className = 'caja';
+            contenedor.appendChild(caja);
         }
 
-        function saludo2() {
-            alert('hola mundo 2');
-        }
+        var btnCaja = document.getElementById('btn-caja');
+        btnCaja.addEventListener('click', crearCaja);
 
-        var btnSaludar = document.getElementById('btn-saludar');
-        btnSaludar.addEventListener('click', saludo);
-        btnSaludar.addEventListener('click', saludo2);
+        // function saludo() {
+        //     alert('hola mundo');
+        // }
+
+        // function saludo2() {
+        //     alert('hola mundo 2');
+        // }
+
+        // var btnSaludar = document.getElementById('btn-saludar');
+        // btnSaludar.addEventListener('click', saludo);
+        // btnSaludar.addEventListener('click', saludo2);
 
         // linea de comando para borra los eventlistener
 
-        btnSaludar.removeEventListener('click', saludo);
+        // btnSaludar.removeEventListener('click', saludo);
 
         // PARA CREAR FUNCIONES ANONIMAS CON UN LISTENER
 
-        btnSaludar.addEventListener('click', function() {
+        // btnSaludar.addEventListener('click', function() {
             //codigo
-        })
+        // })
+
+
+        /* Algunos de los eventos mas usados:			
+			click
+			focus
+			blur
+			change
+			onload
+			mouseover
+			mouseout
+			resize 
+			submit
+		*/
 
     </script>
 </body>

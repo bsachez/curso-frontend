@@ -6,6 +6,9 @@ body {
   background: #FFFFFF;
   padding: 20px;
   width: 400px;
+  /*para commpilar sass a css con nodeJS #1*/
+  /* $~sass --watch estilos.sass:estilos.css  */
+  /*para commpilar sass a css con nodeJS #2*/
+  /* $~node-sass estilos.sass estilos.css -w <- para estar vijilando el archivo estilos.sass  */
 }
-
 /*# sourceMappingURL=estilos.css.map */
